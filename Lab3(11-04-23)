@@ -1,0 +1,36 @@
+									# Permutations
+								## Average = total_marks/no_of_students
+	total_marks=457; 
+	no of students=5; 
+	expected average=91.4
+	
+|S.no	|Average	|	Total_marks	|	No_of Students	|	Output	|	changes	 |
+|----------------------------------------------------------------------------------------------------------------|
+|1.	|int		|	int 		| 	int		|	91	|	%d
+|2.	|int		|	int 		| 	double		|	91	|	%d
+|3.	|int		|	double 		| 	int		|	91	|	%d
+|4.	|int		|	double 		| 	double		|	91	|	%d
+|-----------------------------------------------------------------------------------------------------------------|
+|5.	|double		|	double 		| 	double		|	91.400000|	%f and %lf
+|6.	|double		|	double 		| 	double		|	unpre	|	%d
+|7.	|double		|	int 		| 	double		|	91.400000|	%f and %lf
+|8.	|double		|	double 		| 	int		|	91.400000|	%f and %lf
+|9.	|double		|	int 		| 	int		|	91.000000|	%f and %lf
+|-----------------------------------------------------------------------------------------------------------------|
+|10.	|double		|	int 		| 	int		|	91.400000|	converting to double both
+|11.	|int		|	double		| 	double		|	91	|	converting to int both
+|12.	|int		|	double 		| 	int		|	0	|	%f
+|13.	|int		|	double 		| 	int		|	0	|	%lf
+|14.	|double		|	int 		| 	int		|	0	|	converting computation to double
+|15.	|int		|	double		| 	double		|	91	|	converting computation to int 
+|16.	|null		|	int 		| 	int		|	91	|	Direct calculation of int 
+|17.	|null		|	int 		| 	double		|	91.4	|	Direct calculation of int and double 
+|18.	|null		|	double		| 	int		|	91.4	|	Direct calculation of double and int
+|19.	|null		|	double 		| 	double		|	91.4	|	Direct calculation of double
+|20.	|		|	 		| 			|floating point error|	Does not work
+|21.	|3.14(double)	|	22(int)		| 	7(int)		|	unpre	|	%d
+|22.	|3.14(double)	|	22(int)		| 	7(int)		|	3.00	|	%f
+|23.	|3.14(double)	|	22(int)		| 	7(int)		|	3.00	|	%lf
+|24.	|3.14(double)	|	22(double)	| 	7(double)	|	unpre	|	%d
+|25.	|3.14(double)	|	22(double)	| 	7(double)	|	3.142857|	%f
+|26.	|3.14(double)	|	22(double)	| 	7(double)	|	3.142857|	%lf
